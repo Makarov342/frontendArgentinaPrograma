@@ -1,23 +1,29 @@
-<div class="row">
+<div id="proyects" class="row">
+    
+    
     <div class="div1">
+        <div class="boton">
+        <h2>Proyects</h2>
+        <div *ngIf="isLogged">
+            <button routerLink="/nuevopro" *ngIf="isLogged"><i class="bi bi-plus-circle"> Agregar</i></button>
+        </div>
+    </div>
         <div id="education">
             
-            <div class="education-block">
-                <h3>Escuela N°4-124 Reynaldo Merin</h3>
-                <span class="education-date">Marzo 2012 - Diciembre 2017</span>
-                <h4>Técnico electricista especializado en automatización y mantenimiento industrial</h4>
-                <img class="imagenes3" src="../../../assets/programacion-2-e1551291144973.jpg">
+            <div class="education-block" *ngFor="let Proyectos of proyectos">
+    
+                <h3>{{Proyectos.nombreE}}</h3>
+               
+                <p>{{Proyectos.descripcionE}}</p>
+               
+                <img class="imagenes1"  src="../../../assets/proyecto ARG.png">
+                 <div class="boton2"> 
+                <button routerLink="/editpro/{{Proyectos.id}}"><i class="bi bi-pencil"></i></button>
+                <button (click)="delete(Proyectos.id)"><i class="bi bi-x-circle"></i></button>
+                </div>
+                
             </div>
-            <!-- End .education-block -->
-    
-            <div class="education-block">
-    
-                <h3>Universidad Siglo 21</h3>
-                <span class="education-date">Sept 2019 - Sept 2021</span>
-                <h4>Técnico en investigación de la escena del crimen</h4>
-                <img class="imagenes1" src="../../../assets/Siglo21-Logo-US21-removebg-preview.png">
-    
-            </div>
+           
           
         </div>
     </div>

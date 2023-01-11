@@ -1,13 +1,19 @@
-<div class="row">
+<div id="aboutme" class="row">
     <section class="about">
         <div class="main">
-        <img src="../../../assets/368de447-b9c4-42cf-b83a-2e82aaacf81a.jpg" alt="foto de perfil">
-        <div class="about-text">
-            <h1 id="nombre">{{persona.nombre}} {{persona.apellido}}</h1>
-            <h5>Desarrollador web full stack</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ut ad voluptatem porro deleniti, voluptatum dolorum possimus cupiditate nostrum laudantium tempore dolorem aspernatur asperiores, dolor illo deserunt doloribus qui. Doloremque!</p>
-            <button (click)="contact()">Contact</button>
+        <img src="../../../assets/foto (2).png" alt="foto de perfil">
+        <div class="about-text" *ngFor="let About of about">
+            <h1>{{persona.nombre}} {{persona.apellido}}</h1>
+            <h5>{{About.nombreE}}</h5>
+            <p>{{About.descripcionE}}</p>
+             
+            
+            <button routerLink="/editabout/{{About.id}}"><i class="bi bi-pencil"> Editar</i></button>
+           
+            
         </div>
+        <button routerLink="/nuevoabout" *ngIf="isLogged"><i class="bi bi-plus-circle"> Agregar</i></button>
+        
         </div>
     </section>
     </div>

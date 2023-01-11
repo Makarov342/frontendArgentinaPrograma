@@ -39,7 +39,8 @@
             <li><a class="nav-link" href="https://github.com/Makarov342" target="_blank"><i
                   class="bi bi-github"></i></a></li>
                   
-                  <button (click)="login()">Log in</button>                      
+                  <button (click)="login()" *ngIf="!isLogged">Log in</button>       
+                  <button (click)="onLogOut()" *ngIf="isLogged">Cerrar sesion</button>                  
             
           </ul>
         </div>
