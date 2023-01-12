@@ -1,4 +1,5 @@
 *{
+    font-family: 'Roboto Mono', monospace;
    
     box-sizing: border-box;
 }
@@ -56,6 +57,7 @@ button{
     padding: 13px 30px;
     border-radius: 30px;
     transition: .4s;
+    margin-right: 20px;
 }
 button:hover{
     background:transparent;

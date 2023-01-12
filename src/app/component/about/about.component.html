@@ -1,7 +1,7 @@
 <div id="aboutme" class="row">
     <section class="about">
         <div class="main">
-        <img src="../../../assets/foto (2).png" alt="foto de perfil">
+        <img src="../../../assets/368de447-b9c4-42cf-b83a-2e82aaacf81a.jpg" alt="foto de perfil">
         <div class="about-text" *ngFor="let About of about">
             <h1>{{persona.nombre}} {{persona.apellido}}</h1>
             <h5>{{About.nombreE}}</h5>
@@ -9,10 +9,11 @@
              
             
             <button routerLink="/editabout/{{About.id}}"><i class="bi bi-pencil"> Editar</i></button>
-           
+            <button routerLink="/contact" ><i class="bi bi-person-lines-fill"></i> Contact </button>
             
         </div>
         <button routerLink="/nuevoabout" *ngIf="isLogged"><i class="bi bi-plus-circle"> Agregar</i></button>
+       
         
         </div>
     </section>

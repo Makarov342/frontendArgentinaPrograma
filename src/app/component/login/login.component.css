@@ -1,4 +1,33 @@
-.gradient-custom {
-    /* fallback for old browsers */
-    background: #1c0049;
+*{
+  font-family: 'Roboto Mono', monospace;
+}
+section{
+    background: #280068;
+
+    font-family: 'Raleway', sans-serif;
+}
+.cascading-right {
+    margin-right: -50px;
+  }
+
+  @media (max-width: 991.98px) {
+    .cascading-right {
+      margin-right: 0;
+    }
+  }
+  button{
+    background: rgb(47, 0, 56);
+    color:white;
+    text-decoration: none;
+    border: 2px solid  transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background:transparent;
+    border:2px solid rgb(47, 0, 56);
+    cursor: pointer;
 }

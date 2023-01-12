@@ -1,8 +1,8 @@
+*{
+  font-family: 'Roboto Mono', monospace;
+}
 .div1{
-  background: #654ea3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #eaafc8, #654ea3);
-  
+  background: #280068;
 }
 
 
@@ -86,7 +86,7 @@ h2{
 }
 
 button{
-  background: rgb(246, 147, 250);
+  background: rgb(47, 0, 56);
   color:white;
   text-decoration: none;
   border: 2px solid  transparent;
@@ -102,7 +102,7 @@ border-radius: 30px;
 
 button:hover{
   background:transparent;
-  border:2px solid rgb(151, 104, 160);
+  border:2px solid rgb(47, 0, 56);
   cursor: pointer;
 }
 
