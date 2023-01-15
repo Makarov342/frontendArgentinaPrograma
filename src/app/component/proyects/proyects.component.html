@@ -4,9 +4,6 @@
     <div class="div1">
         <div class="boton">
         <h2>Proyects</h2>
-        <div *ngIf="isLogged">
-            <button routerLink="/nuevopro" *ngIf="isLogged"><i class="bi bi-plus-circle"> Agregar</i></button>
-        </div>
     </div>
         <div id="education">
             
@@ -19,7 +16,6 @@
                 <img class="imagenes1"  src="../../../assets/gestion-de-proyectos.webp">
                  <div class="boton2"> 
                 <button routerLink="/editpro/{{Proyectos.id}}"><i class="bi bi-pencil"></i></button>
-                <button (click)="delete(Proyectos.id)"><i class="bi bi-x-circle"></i></button>
                 </div>
                 
             </div>
