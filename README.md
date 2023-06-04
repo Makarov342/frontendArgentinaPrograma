@@ -36,7 +36,7 @@ src/app/token.service.ts: Handles user authentication and token management.
 # Backend and Deployment
 The backend of this project is built with the Spring Boot framework in Java version 18. It utilizes controllers to handle HTTP requests and service classes to perform CRUD operations. Entity classes define the structure and data for each component's table, with a relational MySQL database as the data store.
 
-The backend is here https://github.com/Makarov342/backendArgPro
+The backend repository can be found here: https://github.com/Makarov342/backendArgPro
 
 The deployment of the frontend is done on Google's Firebase, providing a scalable and secure hosting solution.
 
