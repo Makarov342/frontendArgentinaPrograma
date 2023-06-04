@@ -26,8 +26,11 @@ Make sure you have Node.js and the Angular CLI installed on your system before p
 The project follows a structured organization with key components and files. Here's a brief overview:
 
 src/app/components: Contains the various sections of the portfolio (about me, education, experience, skills, projects).
+
 src/app/services: Includes services that handle HTTP requests and interact with the backend.
+
 src/app/app-routing.module.ts: Configures the application routes and associated components.
+
 src/app/token.service.ts: Handles user authentication and token management.
 
 # Backend and Deployment
