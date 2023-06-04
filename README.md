@@ -1,8 +1,8 @@
 # Angular Project - README
-Introduction
+# Introduction
 Welcome to the README file for the Angular project! This project is a portfolio web application built using Angular version 15.0.4. It showcases various sections such as "about me," "education," "experience," "skills," and "projects." The application allows users to navigate through these sections, edit content (with appropriate permissions), and interact with the backend through corresponding services.
 
-Features
+# Features
 Single Page Application (SPA) using Angular routing
 Bootstrap tools for CSS styling
 Navigation bar for easy section navigation
@@ -10,7 +10,7 @@ User authentication and login functionality
 CRUD (Create, Read, Update, Delete) operations for content editing
 Integration with backend using HTTP requests
 Deployment on Google's Firebase
-Installation and Setup
+# Installation and Setup
 To run this Angular project locally, follow these steps:
 
 Clone the repository: git clone [repository URL]
@@ -19,7 +19,7 @@ Start the development server: ng serve
 Open your browser and navigate to http://localhost:4200
 Make sure you have Node.js and the Angular CLI installed on your system before proceeding with the installation.
 
-Project Structure
+# Project Structure
 The project follows a structured organization with key components and files. Here's a brief overview:
 
 src/app/components: Contains the various sections of the portfolio (about me, education, experience, skills, projects).
@@ -27,12 +27,12 @@ src/app/services: Includes services that handle HTTP requests and interact with 
 src/app/app-routing.module.ts: Configures the application routes and associated components.
 src/app/token.service.ts: Handles user authentication and token management.
 src/app/backend-connection.ts: Defines the URL and connection details to the backend.
-Backend and Deployment
+# Backend and Deployment
 The backend of this project is built with the Spring Boot framework in Java version 18. It utilizes controllers to handle HTTP requests and service classes to perform CRUD operations. Entity classes define the structure and data for each component's table, with a relational MySQL database as the data store.
 
 The deployment of the frontend is done on Google's Firebase, providing a scalable and secure hosting solution.
 
-Further Assistance and Feedback
+# Further Assistance and Feedback
 If you have any questions, suggestions, or feedback regarding this Angular project, please feel free to reach out to me. I am open to further discussions and would appreciate any input to enhance the application.
 
 Thank you for your interest in this project, and I look forward to your valuable feedback.
