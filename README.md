@@ -1,4 +1,4 @@
-Angular Project - README
+# Angular Project - README
 Introduction
 Welcome to the README file for the Angular project! This project is a portfolio web application built using Angular version 15.0.4. It showcases various sections such as "about me," "education," "experience," "skills," and "projects." The application allows users to navigate through these sections, edit content (with appropriate permissions), and interact with the backend through corresponding services.
 
