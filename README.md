@@ -17,9 +17,13 @@ To see the project deployed on Google Firebase, please visit: https://proyectovj
 To run this Angular project locally, follow these steps:
 
 Clone the repository: git clone [repository URL]
+
 Install project dependencies: npm install
+
 Start the development server: ng serve
+
 Open your browser and navigate to http://localhost:4200
+
 Make sure you have Node.js and the Angular CLI installed on your system before proceeding with the installation.
 
 # Project Structure
