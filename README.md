@@ -12,7 +12,7 @@ Integration with backend using HTTP requests
 Deployment on Google's Firebase
 # Installation and Setup
 
-You can see the project deployed in google firebase going to https://proyectovj-6c736.web.app/
+To see the project deployed on Google Firebase, please visit: https://proyectovj-6c736.web.app/
 
 To run this Angular project locally, follow these steps:
 
